@@ -23,6 +23,7 @@ const App = () => {
 
   return (
     <div className="calculator">
+      <div>calculator</div>
       <div className="display">{input}</div>
       <div className="keypad">
         <button onClick={handleClear} className="btn-clear">C</button>
